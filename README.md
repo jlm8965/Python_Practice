@@ -1,6 +1,6 @@
 ﻿# Welcome to Python_Practice!
  
-## Check out my code as I work my way through the "Python for Everybody" Specialization via Coursera! This Specialization is taught through the University of Michigan. 
+### Check out my code as I work my way through the "Python for Everybody" Specialization via Coursera! This Specialization is taught through the University of Michigan. 
 
 ### This Specialization contains five individual courses: 
 1. ### Programming for Everybody (Getting started with Python)
