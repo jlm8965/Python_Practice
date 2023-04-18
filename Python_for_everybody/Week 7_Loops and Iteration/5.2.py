@@ -13,14 +13,18 @@ while True:
     if num == "done":
         break
     try: 
-        fnum = float(num)
+        fnum = int(num)
     except:
         print("Invalid input")
         continue
-if num > largest:
-        largest = num
-elif num < smallest:
-        smallest = num
+    if smallest is None:
+        smallest = fnum
+    elif fnum < smallest:
+        smallest = fnum
+    if largest is None:
+        largest = fnum
+    elif fnum > largest:
+        largest = fnum
 print("Maximum is", largest)
 print("Minimum is", smallest)
 
