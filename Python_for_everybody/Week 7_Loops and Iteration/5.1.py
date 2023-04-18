@@ -2,21 +2,27 @@
 
 
 num = 0
-total = 0
+total = 0.0
 while True:
     snum = input("Enter number:")
+    if snum == "done":
+        break
     try:
         fnum = float(snum)
-        print(fnum)
     except:
-        if snum == "done": 
-            num = num + 1 #count
-            total = total + fnum #total
-            average = (total / num) #average
-        elif type(snum) != float:
-            print("That's not a number. Please try again.")
-            continue
-
-
-
+        print("That's not a number. Please try again.")
+        continue
+    num = num + 1 #count
+    total = total + fnum #total
+    average = (total/num) #average
     
+
+print(num, total, average)
+
+
+
+
+
+            
+        
+
