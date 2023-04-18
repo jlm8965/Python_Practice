@@ -9,12 +9,14 @@ while True:
         fnum = float(snum)
         print(fnum)
     except:
-        if type(snum) != float:
+        if snum == "done": 
+            num = num + 1 #count
+            total = total + fnum #total
+            average = (total / num) #average
+        elif type(snum) != float:
             print("That's not a number. Please try again.")
-        continue
-    num = num + 1 #count
-    total = total + fnum #total
-    average = (total / num) #average
+            continue
+
 
 
     
