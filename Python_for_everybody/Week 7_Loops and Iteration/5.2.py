@@ -16,6 +16,7 @@ while True:
         fnum = float(num)
     except:
         print("Invalid input")
+        continue
 if num > largest:
         largest = num
 elif num < smallest:
